@@ -7,7 +7,6 @@ def prime?(number)
   prime_check = number % x
  
   while prime_check > 0
-    x = x + 1
     return true if x == number
     prime_check = number % x
     x+=1 
