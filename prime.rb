@@ -1,5 +1,3 @@
-
-
 def prime?(number)
  
   return true if number == 2
@@ -12,6 +10,7 @@ def prime?(number)
     x = x + 1
     return true if x == number
     prime_check = number % x
+    x+=1 
   end
   return false
 end
