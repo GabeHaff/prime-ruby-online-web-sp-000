@@ -1,8 +1,5 @@
 
-def invalid_number(number)
-  number == 0 || number == 1 || number != number.abs
-end
- 
+
 def prime?(number)
  
   return true if number == 2
