@@ -17,8 +17,6 @@ def prime?(number)
     return true if x == number
     prime_check = number % x
   end
- 
   return false
- 
 end
  
