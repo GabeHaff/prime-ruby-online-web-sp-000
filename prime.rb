@@ -1,22 +1,10 @@
-prime?(integer)
-if integer<=1 
-  return false 
-end 
-numbers=(2..-1).to_a 
-numbers.each do |integer|
 
-if number % integer == 1 || number % 1 == integer
-  return true 
-else 
-  return false 
-end 
-end 
 def invalid_number(number)
   number == 0 || number == 1 || number != number.abs
 end
  
  
-def is_prime(number)
+def prime?(number)
  
   return true if number == 2
  
